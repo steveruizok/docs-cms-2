@@ -19,7 +19,6 @@ const PostLayout: React.FunctionComponent<PostLayoutProps> = ({
   return (
     <Layout location={location}>
       <h1>{title}</h1>
-      <em>{date}</em>
       {children}
     </Layout>
   );
